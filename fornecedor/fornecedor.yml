@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: '@senharootmysql123'
+    url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=America/Sao_Paulo
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
